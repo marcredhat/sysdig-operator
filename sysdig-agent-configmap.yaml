@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: sysdig-agent
 data:
-  dragent.yaml: |
+  configmap.yaml: |
     configmap: true
     
     
