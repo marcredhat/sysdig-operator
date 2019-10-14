@@ -5,6 +5,12 @@ metadata:
 data:
   dragent.yaml: |
     configmap: true
+    
+    
+    collector: 192.168.130.11
+    collector_port: 4567
+    ssl: false
+    ssl_verify_certificate: false
     ### Agent tags
     # tags: linux:ubuntu,dept:dev,local:nyc
 
